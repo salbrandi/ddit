@@ -1,0 +1,8 @@
+chcreator.py
+diceroller.py
+DDIT.egg-info/PKG-INFO
+DDIT.egg-info/SOURCES.txt
+DDIT.egg-info/dependency_links.txt
+DDIT.egg-info/entry_points.txt
+DDIT.egg-info/requires.txt
+DDIT.egg-info/top_level.txt

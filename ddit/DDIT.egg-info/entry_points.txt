@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        roll=diceroller:roll
+        fumble=diceroller:p_fumble
+        
