@@ -2,6 +2,10 @@
 import numpy
 
 
+#   TO-DO
+#   MOVE LISTS TO DATA FILE STRUCTURE
+#
+
 
 Game_Version = 'Dungeon & Dragons: 5th edition'
 attrs = ['race', 'class', 'background', 'deity', 'level', 'saving throws',
@@ -20,6 +24,11 @@ race_list = [
  'Half-Elf,0,0,0,0,0,2', 'Dragonborn,2,0,0,0,0,1', 'Half-Orc,2,1,0,0,0,0']
 
 stats = ['str', 'con', 'dex', 'int', 'wis', 'cha']
+
+eqp_list = ['l,Padded,11', 'l,Leather,11', 'l,Studded Leather,12',
+'m,Hide,12', 'm,Chain shirt', 'm,Scale mail,14', 'm,Breastplate,14',
+'m,Halfplate,15','h,Ring Mail,14','h,Chain Mail,16','Splint,17','h,Plate,18']
+
 
 skill_list = [
 'Athletics,str',
@@ -43,18 +52,18 @@ skill_list = [
 ]
 
 class_list = [
-'Barbarian,12',
-'Bard,8',
-'Cleric,8',
-'Druid,8',
-'Fighter,10',
-'Monk,8',
-'Paladin,10',
-'Ranger,10',
-'Rogue,8',
-'Sorcerer,6',
-'Warlock,8',
-'Wizard,6',
+'Barbarian,12,2d4x10',
+'Bard,8,5d4x10',
+'Cleric,8,4dx10',
+'Druid,8,5d4x10',
+'Fighter,10,5d4x10',
+'Monk,8,5d4',
+'Paladin,10,5d4x10',
+'Ranger,10,5d4x10',
+'Rogue,8,4d4x10',
+'Sorcerer,6,3d4x10',
+'Warlock,8,4d4x10',
+'Wizard,6,4d4x10'
 ]
 
 def calc_sign(a):
